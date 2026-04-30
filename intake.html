@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Universal Intake | OYA Clinic</title><link rel="stylesheet" href="styles.css"><link rel="icon" href="favicon.png"></head>
+<body><header class="site-header">
+  <div class="container header-row">
+    <a href="index.html"><img src="oya-logo.png" alt="OYA Clinic logo" class="header-logo"></a>
+    <nav class="nav">
+      <a href="index.html">HOME</a>
+      <a href="referral.html">REFERRAL</a>
+      <a href="intake.html">INTAKE</a>
+      <a href="ffccc-intake.html">FFCCC</a>
+    </nav>
+    <a class="header-cta" href="https://cloud.healthquest.ca:45277/onlinebooking" target="_blank" rel="noopener">BOOK APPOINTMENT</a>
+  </div>
+</header>
+<div class="form-shell">
+  <h1>Universal Patient Intake Form</h1>
+  <div class="form-note"><strong>For new patients:</strong> Please complete as much information as you can. If printing, bring the completed form to your appointment.</div>
+  <h2 class="serif" style="color:var(--navy)">Patient Demographics</h2>
+  <div class="form-grid">
+    <div><label>Full name</label><input></div>
+    <div><label>Date of birth</label><input type="date"></div>
+    <div><label>Preferred name</label><input></div>
+    <div><label>Pronouns</label><input></div>
+    <div><label>Phone</label><input></div>
+    <div><label>Email</label><input type="email"></div>
+  </div>
+  <label>Address</label><textarea></textarea>
+  <h2 class="serif" style="color:var(--navy)">Medical History</h2>
+  <label>Current medical conditions</label><textarea></textarea>
+  <label>Current medications</label><textarea></textarea>
+  <label>Medication allergies / reactions</label><textarea></textarea>
+  <label>Previous surgeries / hospitalizations</label><textarea></textarea>
+  <label>Family history</label><textarea></textarea>
+  <label>Social history (occupation, living situation, tobacco, alcohol, substances)</label><textarea></textarea>
+  <label>What would you like help with today?</label><textarea></textarea>
+  <div class="checkbox"><input type="checkbox" id="consent"><label for="consent" style="margin:0">I confirm the information provided is accurate to the best of my knowledge.</label></div>
+  <div class="form-actions"><a class="btn btn-outline" href="index.html">Back to Home</a><button class="btn btn-primary" onclick="window.print()">Print / Save PDF</button></div>
+</div>
+</body></html>
